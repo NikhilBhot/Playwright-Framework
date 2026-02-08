@@ -22,7 +22,7 @@ test('Handle Pages/Windows',async()=>{
 
 })
 
-test.only('Handle Multiple Pages/widows',async()=>{
+test('Handle Multiple Pages/widows',async()=>{
     test.setTimeout(15000);
         const browser=await chromium.launch();
     const context=await browser.newContext();
