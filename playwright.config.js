@@ -35,7 +35,7 @@ export default defineConfig({
     video:'retain-on-failure',
   
   },
-  timeout:1000,
+  timeout:10000,
   /* Configure projects for major browsers */
   projects: [
     {
