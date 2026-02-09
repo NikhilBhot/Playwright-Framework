@@ -1,14 +1,81 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="16.522677">
-<testsuite name="Reporters.spec.js" timestamp="2026-02-09T13:45:14.907Z" hostname="chromium" tests="3" failures="0" skipped="0" time="13.174" errors="0">
-<testcase name="Test1" classname="Reporters.spec.js" time="3.018">
+<testsuites id="" name="" tests="9" failures="1" skipped="0" errors="0" time="49.96686999999999">
+<testsuite name="Reporters.spec.js" timestamp="2026-02-09T15:29:42.106Z" hostname="chromium" tests="3" failures="0" skipped="0" time="18.039" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="6.773">
 </testcase>
-<testcase name="Test2" classname="Reporters.spec.js" time="7.693">
+<testcase name="Test2" classname="Reporters.spec.js" time="8.539">
 <properties>
 <property name="slow" value="">
 </property>
 </properties>
 </testcase>
-<testcase name="Test3" classname="Reporters.spec.js" time="2.463">
+<testcase name="Test3" classname="Reporters.spec.js" time="2.727">
+<properties>
+<property name="slow" value="">
+</property>
+</properties>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2026-02-09T15:29:42.106Z" hostname="firefox" tests="3" failures="1" skipped="0" time="27.739" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="9.833">
+<failure message="Reporters.spec.js:3:1 Test1" type="FAILURE">
+<![CDATA[  [firefox] › Reporters.spec.js:3:1 › Test1 ────────────────────────────────────────────────────────
+
+    Test timeout of 5000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporters-Test1-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporters-Test1-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporters-Test1-firefox\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Reporters-Test1-firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Reporters-Test1-firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test1-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test1-firefox\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test1-firefox\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporters-Test1-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js" time="13.777">
+<properties>
+<property name="slow" value="">
+</property>
+</properties>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js" time="4.129">
+<properties>
+<property name="slow" value="">
+</property>
+</properties>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2026-02-09T15:29:42.106Z" hostname="webkit" tests="3" failures="0" skipped="0" time="18.724" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="4.945">
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js" time="9.917">
+<properties>
+<property name="slow" value="">
+</property>
+</properties>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js" time="3.862">
 <properties>
 <property name="slow" value="">
 </property>
