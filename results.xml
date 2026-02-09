@@ -1,0 +1,18 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="16.522677">
+<testsuite name="Reporters.spec.js" timestamp="2026-02-09T13:45:14.907Z" hostname="chromium" tests="3" failures="0" skipped="0" time="13.174" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="3.018">
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js" time="7.693">
+<properties>
+<property name="slow" value="">
+</property>
+</properties>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js" time="2.463">
+<properties>
+<property name="slow" value="">
+</property>
+</properties>
+</testcase>
+</testsuite>
+</testsuites>
